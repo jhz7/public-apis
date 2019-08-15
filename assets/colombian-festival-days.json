@@ -1,0 +1,81 @@
+[
+    {
+        "year": "2019",
+        "months": [
+            {
+                "month": "January",
+                "days": [
+                    1,
+                    7
+                ]
+            },
+            {
+                "month": "February",
+                "days": []
+            },
+            {
+                "month": "March",
+                "days": [
+                    25
+                ]
+            },
+            {
+                "month": "April",
+                "days": [
+                    18,
+                    19
+                ]
+            },
+            {
+                "month": "May",
+                "days": [
+                    1
+                ]
+            },
+            {
+                "month": "June",
+                "days": [
+                    3,
+                    24
+                ]
+            },
+            {
+                "month": "July",
+                "days": [
+                    1,
+                    20
+                ]
+            },
+            {
+                "month": "August",
+                "days": [
+                    7,
+                    19
+                ]
+            },
+            {
+                "month": "September",
+                "days": []
+            },
+            {
+                "month": "October",
+                "days": [
+                    14
+                ]
+            },
+            {
+                "month": "Nobember",
+                "days": [
+                    4,
+                    11
+                ]
+            },
+            {
+                "month": "December",
+                "days": [
+                    25
+                ]
+            }
+        ]
+    }
+]
