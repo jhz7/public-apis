@@ -1,21 +1,23 @@
 const express = require('express');
 const app = express();
  
-app.get('/colombian-festival-days', function (_, res) {
-  const festiveDays = require('../assets/colombian-festival-days.json')
+app.get('/holiday-days', function (req, res) {
+
+  const countryCode = req.query.code
+  const festiveDays = require('../assets/colombian-holiday-days.json')
   res.json(festiveDays)
 });
 
-app.get('/increase-percentage-by-kind-of-worked-hour', function (req, res) {
-  const festiveDays = require('../assets/increase-percentage-by-kind-of-worked-hour.json')
+app.get('/increase-by-kind-of-worked-hour', function (_, res) {
+  const festiveDays = require('../assets/increase-by-kind-of-worked-hour.json')
   res.json(festiveDays)
 });
 
-app.get('/colombian-start-end-nocturnal-schedule', function (req, res) {
-  const festiveDays = require('../assets/start-end-nocturnal-schedule.json')
+app.get('/colombian-nocturnal-schedule', function (_, res) {
+  const festiveDays = require('../assets/start-and-end-nocturnal-schedule.json')
   res.json(festiveDays)
 });
  
 app.listen(3000, () => {
-    console.log('Escuchando puerto 3000')
+    console.log('Listen to 3000')
 });

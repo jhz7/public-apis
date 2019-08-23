@@ -1,8 +1,9 @@
 {
     "diurnalExtra": 1.25,
-    "nocturnalExtra": 1.75,
-    "nocturnal": 1.35,
     "diurnalFestival": 1.75,
     "diurnalExtraFestival": 2.0,
+    "nocturnal": 1.35,
+    "nocturnalExtra": 1.75,
+    "nocturnalFestival": 2.3,
     "nocturnalExtraFestival": 2.5
 }
